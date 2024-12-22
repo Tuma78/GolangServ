@@ -56,7 +56,7 @@ go mod tidy
 2. Запуск сервера
 Для запуска веб-сервиса используйте команду:
 ```bash
-go run internal/application/application.go
+go run cmd/main.go
 ```
 
 По умолчанию сервис будет доступен по адресу http://localhost:8080. Вы можете изменить порт, установив переменную окружения PORT.
